@@ -1,124 +1,135 @@
 <template>
-  <div>
-    <v-app-bar app>
-      <v-container>
-        <div class="titlePara">Crpto Naughty Mammal</div>
-        <div class="button">
-          <v-btn
-              text
-          >
-            <div style="color: white">Home</div>
-          </v-btn>
-          <v-btn
-              text
-              href="#story"
-          >
-            <div style="color: white">Story</div>
-          </v-btn>
-          <v-btn
-              text
-          >
-            <div style="color: white">Specs</div>
-          </v-btn>
-          <v-btn
-              text
-          >
-            <div style="color: white">Community</div>
-          </v-btn>
-          <v-btn
-              text
-          >
-            <div style="color: white">Roadmap</div>
-          </v-btn>
-          <v-btn
-              text
-          >
-            <div style="color: white">Team</div>
-          </v-btn>
-        </div>
-      </v-container>
-    </v-app-bar>
-    <v-main>
-      <v-container>
+  <div class="backgroundPic">
+    <div class="backgroungPicture">
+      <v-app-bar app dark>
+        <v-container class="d-flex" style="width: 100%">
+          <div>Crpto Naughty Mammal</div>
+          <v-spacer></v-spacer>
+          <div>
+            <v-btn
+                href="#home"
+                text
+            >
+              <div style="color: white">Home</div>
+            </v-btn>
+            <v-btn
+                href="#story"
+                text
+            >
+              <div style="color: white">Story</div>
+            </v-btn>
+            <v-btn
+                href="#community"
+                text
+            >
+              <div style="color: white">Community</div>
+            </v-btn>
+            <v-btn
+                href="#roadmap"
+                text
+            >
+              <div style="color: white">Roadmap</div>
+            </v-btn>
+            <v-btn
+                href="#team"
+                text
+            >
+              <div style="color: white">Team</div>
+            </v-btn>
+          </div>
+        </v-container>
 
-        <v-row>
-          <v-col cols="6"></v-col>
-          <v-col cols="6"></v-col>
-        </v-row>
-        <v-row>
-          <div class="backgroundPic">
-            <div class="first">
-              <div class="firstPara">
-                <h1 style="color: white">The <span style="color: purple">Project</span> You Have <br>Been Waiting For...</h1>
-                <p style="color: white">Lorem Ipsum is simply dummy text of the printing and
-                  <br>typesetting industry Lorem Ipsum has been the industry's
-                  <br>standard dummy text ever since the 1500s.</p>
-                <v-btn color="#FF00FF" style="margin-top: 30px"><span style="color: white">Connect Wallet</span></v-btn>
+      </v-app-bar>
+      <v-main>
+        <v-container>
+          <v-row class="mt-16">
+            <v-col class="pa-4" cols="6" id="home">
+              <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
+                <div>
+                  <h1 style="color: white">The <span style="color: purple">Project</span> You Have <br>Been Waiting
+                    For...
+                  </h1>
+                  <p style="color: white">Lorem Ipsum is simply dummy text of the printing and
+                    <br>typesetting industry Lorem Ipsum has been the industry's
+                    <br>standard dummy text ever since the 1500s.</p>
+                  <v-btn color="#FF00FF" style="margin-top: 30px"><span style="color: white">Connect Wallet</span>
+                  </v-btn>
+                </div>
               </div>
-              <div class="firstPic">
-                <v-img :src="require('../assets/1.png')" width="350px"></v-img>
+            </v-col>
+            <v-col class="pa-4" cols="6">
+              <div class=" d-flex justify-center">
+                <v-img :src="require('../assets/1.png')"></v-img>
               </div>
-            </div>
-            <div class="second">
-              <div class="secondPic">
-                <v-img :src="require('../../public/891.png')" width="350px"></v-img>
+            </v-col>
+          </v-row>
+          <v-row class="mt-16">
+            <v-col class="pa-4" cols="6">
+              <div class=" d-flex justify-center">
+                <v-img :src="require('../../public/891.png')"></v-img>
               </div>
-              <div id="story" class="secondPara">
-                <h1 style="color: white">Story</h1>
-                <p style="color: white">Proin gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem
-                  <br>quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  <br>nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
-                  <br>mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                  <br>auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu
-                  <br>in elit. Class aptent taciti sociosqu ad litora torquent per conubia
-                  <br>nostra, per inceptos himenaeos. Mauris in eratjusto. Nullam ac urna
-                  <br>eu felis dapibus condimentum sit amet a augue.
-                </p>
+            </v-col>
+            <v-col id="story" class="pa-4" cols="6">
+              <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
+                <div>
+                  <h1 style="color: white">Story</h1>
+                  <p style="color: white">Proin gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem
+                    quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
+                    mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                    auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu
+                    in elit. Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. Mauris in eratjusto. Nullam ac urna
+                    eu felis dapibus condimentum sit amet a augue.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="third">
-              <div class="thirdTitle"><h1 style="color: white">Community</h1></div>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col class="pa-4" cols="8" offset="2" id="community">
+              <div class="third mt-16">
+                <div class="thirdTitle d-flex justify-space-between"><h1 style="color: white">Community</h1>
+                  <div>
+                    <v-btn color="purple" icon outlined @click="model--">
+                      <v-icon>mdi-arrow-left</v-icon>
+                    </v-btn>
+                    <v-btn class="ml-2" color="purple" icon outlined @click="model++">
+                      <v-icon>mdi-arrow-right</v-icon>
+                    </v-btn>
+                  </div>
+                </div>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12">
               <div class="banner">
                 <div class="bannerPic">
                   <v-sheet
                       class="mx-auto"
+                      color="#100428"
                       elevation="8"
                       max-width="1200"
-                      color="#100428"
                   >
                     <v-slide-group
                         v-model="model"
-                        class="pa-4"
                         center-active
-                        show-arrows
+                        class="pa-4"
                     >
-                      <template v-slot:prev="{ on, attrs }">
-                        <v-icon
-                            style="color: white"
-                            v-bind="attrs"
-                            v-on="on"
-                        >mdi-chevron-left</v-icon>
-                      </template>
-                      <template v-slot:next="{ on, attrs }">
-                        <v-icon
-                            style="color: white"
-                            v-bind="attrs"
-                            v-on="on"
-                        >mdi-chevron-right</v-icon>
-                      </template>
                       <v-slide-item
                           v-for="(item,i) in items"
-                          :src="item.src"
                           :key="i"
                           v-slot="{ active, toggle }"
+                          :src="item.src"
                       >
                         <v-card
-                            :color="active ? 'primary' : 'grey lighten-1'"
+                            :color="active ? 'primary' : 'primary'"
                             class="ma-4"
                             height="250"
+                            style="position: relative"
                             width="250"
                             @click="toggle"
-                            style="margin-left: 50px"
                         >
                           <v-img
                               :src="item.src"
@@ -127,322 +138,308 @@
                               height="250px"
                           >
                           </v-img>
+                          <v-card class="d-flex justify-space-between align-center"
+                                  dark
+                                  style="width: 100%;position: absolute;bottom: 0;height: 36px;background: rgba(0,0,0,0.76)">
+                            <div>Name</div>
+                            <div>
+                              <v-icon class="mr-2" small color="red">mdi-heart</v-icon>
+                              37
+                            </div>
+                          </v-card>
                         </v-card>
                       </v-slide-item>
                     </v-slide-group>
                   </v-sheet>
                 </div>
               </div>
-            </div>
-            <div class="fourth">
-              <div class="fourthTitle"><h1 style="color: white">Roadmap</h1></div>
-              <div class="fourthOne">
-                <div class="fourthPic">
-                  <v-img :src="require('../assets/854.png')" width="250px"></v-img>
-                </div>
-                <div class="fourthPara">
-                  <v-card width="400px" height="150px" color="#660066" rounded style="border-radius: 25px; padding-top: 15px">
+            </v-col>
+          </v-row>
+          <v-row id="roadmap">
+            <v-col cols="12">
+              <div class="text-center">
+                <h1 style="color: white">Roadmap</h1>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row class="mt-16">
+            <v-col cols="4" offset="1">
+              <v-card class="d-flex justify-center" style="background-color: #80cd93;border-radius: 20px">
+                <v-img :src="require('../assets/854.png')" class="flex-grow-0" width="250px"></v-img>
+              </v-card>
+            </v-col>
+            <v-col class="pa-4" cols="6" offset="1">
+              <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
+                <div>
+                  <v-card color="#100428"
+                          style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;">
                     <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
-                    <br>
-                    <p style="color: white">&emsp;Proin gravida nibh vel velit auctor aliquet. Aenean
-                      <br>&emsp;sollicitudin, lorem quis bibendum auctor, nisi elit
-                      <br>&emsp;consequat ipsum, nec sagittis sem nibh id elit.
-                    </p>
+                    <ul>
+                      <li style="color: #a74ae1;padding-left: 10px">
+                        <div style="color: white">
+                          Proin gravida nibh vel velit auctor aliquet. Aenean
+                          sollicitudin, lorem quis bibendum auctor, nisi elit
+                          consequat ipsum, nec sagittis sem nibh id elit.
+                        </div>
+                      </li>
+                    </ul>
                   </v-card>
                 </div>
               </div>
-            </div>
-            <div class="fifth">
-              <div class="fifthPara">
-                <v-card width="400px" height="150px" color="#660066" rounded style="border-radius: 25px;padding-top: 15px">
-                  <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
-                  <br>
-                  <p style="color: white">&emsp;Proin gravida nibh vel velit auctor aliquet. Aenean
-                    <br>&emsp;sollicitudin, lorem quis bibendum auctor, nisi elit
-                    <br>&emsp;consequat ipsum, nec sagittis sem nibh id elit.
-                  </p>
-                </v-card>
+            </v-col>
+          </v-row>
+          <v-row no-gutters>
+            <v-col cols="6" offset="3">
+              <div style="border-left-style: dotted;border-bottom-style: dotted;border-width: 2px;border-color: white;height: 20px">
               </div>
-              <div class="fifPic">
-                <v-img :src="require('../assets/856.png')" width="250px"></v-img>
+            </v-col>
+          </v-row>
+          <v-row no-gutters>
+            <v-col cols="6" offset="3">
+              <div style="border-right-style: dotted;border-width: 2px;border-color: white;height: 20px">
               </div>
-            </div>
-            <div class="sixth">
-              <div class="sixthPic">
-                <v-img :src="require('../assets/857.png')" width="250px"></v-img>
-              </div>
-              <div class="sixthPara">
-                <v-card width="400px" height="150px" color="#660066" rounded style="border-radius: 25px;padding-top: 15px">
-                  <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
-                  <br>
-                  <p style="color: white">&emsp;Proin gravida nibh vel velit auctor aliquet. Aenean
-                    <br>&emsp;sollicitudin, lorem quis bibendum auctor, nisi elit
-                    <br>&emsp;consequat ipsum, nec sagittis sem nibh id elit.
-                  </p>
-                </v-card>
-              </div>
-            </div>
-            <div class="seventh">
-              <div class="seventhTitle"><h1 style="color: white">Our Team</h1></div>
-              <div class="seventhCard">
-                <v-container fluid>
-                  <v-row>
-                    <v-col
-                        v-for="card in cards"
-                        :key="card.title"
-                        :cols="card.flex"
-                    >
-                      <v-card width="250px">
-                        <v-img
-                            :src="card.src"
-                            class="white--text align-end"
-                            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-                            height="250px"
-                        >
-                        </v-img>
-                        <div>
-                          <v-card-title>
-                            <div style="text-align: center;width: 100%;font-size: 28px"> {{card.title}} </div>
-                          </v-card-title>
+            </v-col>
+          </v-row>
+          <v-row no-gutters>
+            <v-col class="pa-4" cols="6" offset="1">
+              <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
+                <div>
+                  <v-card color="#100428"
+                          style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;">
+                    <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
+                    <ul>
+                      <li style="color: #a74ae1;padding-left: 10px">
+                        <div style="color: white">
+                          Proin gravida nibh vel velit auctor aliquet. Aenean
+                          sollicitudin, lorem quis bibendum auctor, nisi elit
+                          consequat ipsum, nec sagittis sem nibh id elit.
                         </div>
-                        <div>
-                          <v-card-subtitle>
-                            <div style="text-align: center;width: 100%;font-size: 20px"> {{card.subtitle}} </div>
-                          </v-card-subtitle>
-                        </div>
-                        <v-card-actions>
-                          <v-spacer></v-spacer>
-                          <v-btn icon>
-                            <v-icon>mdi-facebook</v-icon>
-                          </v-btn>
-                          <v-btn icon>
-                            <v-icon>mdi-twitter</v-icon>
-                          </v-btn>
-                          <v-btn icon>
-                            <v-icon>mdi-linkedin</v-icon>
-                          </v-btn>
-                        </v-card-actions>
-                      </v-card>
-                    </v-col>
-                  </v-row>
-                </v-container>
+                      </li>
+                    </ul>
+                  </v-card>
+                </div>
               </div>
-            </div>
-            <div class="eighth">
-              <v-card color="#100428" light width="800px" height="250px">
-                <br><h2 style="text-align: center;color: white">Are You A Crpto Naughty Mammal. Collector?</h2>
-                <br><p style="text-align: center;color: white">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequatipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus asit amet mauris</p><br><br>
-                <div class="eighthGroup">
-                  <div class="eighthText">
-                    <v-text-field label="Enter Your Email Address" color="" dark outlined style="width: 500px;margin-left: 60px"></v-text-field>
-                  </div>
-                  <div>
-                    <v-btn style="background-color: purple; color: white" height="55px">Join Our Discord</v-btn>
+            </v-col>
+            <v-col cols="4">
+              <v-card class=" d-flex justify-center" style="background-color: #53739a;border-radius: 20px">
+                <v-img :src="require('../assets/855.png')" class="flex-grow-0" width="250px"></v-img>
+              </v-card>
+            </v-col>
+          </v-row>
+          <v-row no-gutters>
+            <v-col cols="6" offset="3">
+              <div style="border-right-style: dotted;border-bottom-style: dotted;border-width: 2px;border-color: white;height: 20px">
+              </div>
+            </v-col>
+          </v-row>
+          <v-row no-gutters>
+            <v-col cols="6" offset="3">
+              <div style="border-left-style: dotted;border-width: 2px;border-color: white;height: 20px">
+              </div>
+            </v-col>
+          </v-row>
+          <v-row no-gutters>
+            <v-col cols="4" offset="1">
+              <v-card class=" d-flex justify-center" style="background-color: #918787;border-radius: 20px">
+                <v-img :src="require('../assets/857.png')" class="flex-grow-0" width="250px"></v-img>
+              </v-card>
+            </v-col>
+            <v-col class="pa-4" cols="6" offset="1">
+              <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
+                <div>
+                  <v-card color="#100428"
+                          style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;">
+                    <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
+                    <ul>
+                      <li style="color: #a74ae1;padding-left: 10px">
+                        <div style="color: white">
+                          Proin gravida nibh vel velit auctor aliquet. Aenean
+                          sollicitudin, lorem quis bibendum auctor, nisi elit
+                          consequat ipsum, nec sagittis sem nibh id elit.
+                        </div>
+                      </li>
+                    </ul>
+                  </v-card>
+                </div>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12" id="team">
+              <div class="text-center">
+                <h1 style="color: white">Our Team</h1>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row class="mt-16">
+            <v-col
+                v-for="card in cards"
+                :key="card.title"
+                :cols="card.flex"
+                class="d-flex justify-center"
+            >
+              <v-card max-width="360px" style="background-color: #a74ae1;border-radius: 20px">
+                <v-card class="ml-2 mr-2 mt-2 mb-2" style="border-radius: 10px">
+                  <v-img
+                      :src="card.src"
+                      class="white--text align-end"
+                      gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                      height="250px"
+                  >
+                  </v-img>
+                </v-card>
+                <div class="pa-2">
+                  <div style="text-align: center;width: 100%;font-size: 28px;color: white"> {{ card.title }}</div>
+                  <div style="text-align: center;width: 100%;font-size: 20px;color: white"> {{ card.subtitle }}</div>
+                </div>
+                <div>
+                  <v-card-actions class="justify-center flex-wrap">
+                    <div>
+                      <v-btn icon>
+                        <v-icon color="white">mdi-facebook</v-icon>
+                      </v-btn>
+                      <v-btn icon>
+                        <v-icon color="white">mdi-twitter</v-icon>
+                      </v-btn>
+                      <v-btn icon>
+                        <v-icon color="white">mdi-linkedin</v-icon>
+                      </v-btn>
+                    </div>
+                  </v-card-actions>
+                </div>
+              </v-card>
+            </v-col>
+          </v-row>
+          <v-row class="mt-16">
+            <v-col cols="8" offset="2">
+              <v-card color="#100428" style="border-radius: 20px">
+                <div style="border-style:solid;border-color:purple;">
+                  <br>
+                  <h2 style="text-align: center;color: white">Are You A Crpto Naughty Mammal. Collector?</h2>
+                  <br>
+                  <p style="text-align: center;color: white">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                    consequatipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus asit
+                    amet
+                    mauris</p>
+                  <div class="d-flex  justify-center mt-12" style="width: 100%">
+                    <div>
+                      <v-text-field dark label="Enter Your Email Address" outlined
+                                    style="width: 100%;"
+                      ></v-text-field>
+                    </div>
+                    <div>
+                      <v-btn height="55px" style="background-color: purple; color: white">Join Our Discord</v-btn>
+                    </div>
                   </div>
                 </div>
               </v-card>
-            </div>
-            <div class="footer">
-              <v-footer style="background-color: purple">
-                <v-col
-                    style="text-align: center; color: white"
-                    cols="12"
-                >
-                  Copyright © {{ new Date().getFullYear() }} All Right Reserved
-                </v-col>
+            </v-col>
+          </v-row>
+          <v-row class="mt-16">
+            <v-col cols="12">
+              <v-footer style="background-color: purple;color: white;text-align: center">
+                <div style="width: 100%">Copyright © {{ new Date().getFullYear() }} All Right Reserved</div>
               </v-footer>
-            </div>
-          </div>
-        </v-row>
-      </v-container>
-    </v-main>
+            </v-col>
+          </v-row>
+          <v-row>
+            <div>
 
+            </div>
+          </v-row>
+        </v-container>
+      </v-main>
+    </div>
   </div>
 
 </template>
 
 <script>
-  export default {
-    data(){
-      return{
-        items: [
-          {
-            src: "/858.png",
-          },
-          {
-            src: "/859.png",
-          },
-          {
-            src: "/860.png",
-          },
-          {
-            src: "/861.png",
-          },
-          {
-            src: "/862.png",
-          },
-          {
-            src: "/891.png",
-          },
-          {
-            src: "/892.png",
-          },
-          {
-            src: "/893.png",
-          },
-          {
-            src: "/894.png",
-          },
-          {
-            src: "/895.png",
-          },
-          {
-            src: "/896.png",
-          },
-          {
-            src: "/897.png",
-          },
-          {
-            src: "/898.png",
-          },
-          {
-            src: "/899.png",
-          },
+export default {
+  data() {
+    return {
+      selection: 1,
+      model: null,
+      items: [
+        {
+          src: "/858.png",
+        },
+        {
+          src: "/859.png",
+        },
+        {
+          src: "/860.png",
+        },
+        {
+          src: "/861.png",
+        },
+        {
+          src: "/862.png",
+        },
+        {
+          src: "/891.png",
+        },
+        {
+          src: "/892.png",
+        },
+        {
+          src: "/893.png",
+        },
+        {
+          src: "/894.png",
+        },
+        {
+          src: "/895.png",
+        },
+        {
+          src: "/896.png",
+        },
+        {
+          src: "/897.png",
+        },
+        {
+          src: "/898.png",
+        },
+        {
+          src: "/899.png",
+        },
 
-        ],
-        cards: [
-          { title: 'Oscar',subtitle: 'The Owner', src: "/864.png", flex: 3 },
-          { title: 'Jane Williams', subtitle: 'The Designer', src: '/865.png', flex: 3 },
-          { title: 'Jefferson Coles', subtitle:  'The Artist', src: '/863.png', flex: 3 },
-        ],
-      }
-    },
-    methods:{
+      ],
+      cards: [
+        {title: 'Oscar', subtitle: 'The Owner', src: "/864.png", flex: 4},
+        {title: 'Jane Williams', subtitle: 'The Designer', src: '/865.png', flex: 4},
+        {title: 'Jefferson Coles', subtitle: 'The Artist', src: '/863.png', flex: 4},
+      ],
     }
-  }
+  },
+  watch: {
+    model: function (val) {
+      console.log(val)
+    }
+  },
+  methods: {}
+}
 </script>
 
 <style>
-.backgroundPic{
-  background: url("../assets/background.png");
+.backgroundPic {
+  background-color: #100428;
+}
+
+
+.thirdTitle {
   width: 100%;
-  height: 100%;
-}
-.Title{
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-.titlePara{
-  width: 30%;
-  text-align: center;
-  color: #ffffff;
-}
-.button{
-  width: 70%;
   text-align: center;
 }
-.first {
-  display: flex;
+
+.bannerPic {
   width: 100%;
-  align-items: center;
-}
-.firstPara {
-  margin-left: 20%;
-  width: 40%;
-  align-items: center;
-}
-.firstPic {
-  margin-top: 125px;
-  align-items: center;
-}
-.second{
-  display: flex;
-}
-.secondPic{
-  margin-top: 150px;
-  margin-left: 20%;
-  width: 40%;
-  align-items: center;
-}
-.secondPara{
-  margin-top: 200px;
-  width: 60%;
-}
-.third{
-}
-.thirdTitle{
-  width: 100%;
-  margin-top: 200px;
-  text-align: center;
-}
-.bannerPic{
-  margin-top: 100px;
-  width: 1200px;
   height: 350px;
-  margin-left: 20%;
 }
-.fourth{
-}
-.fourthTitle{
-  text-align: center;
-  margin-top: 200px;
-}
-.fourthOne{
-  display: flex;
-}
-.fourthPic{
-  margin-top: 150px;
-  margin-left: 30%;
-  width: 40%;
-  align-items: center;
-}
-.fourthPara{
-  margin-top: 200px;
-  width: 60%;
-}
-.fifth{
-  display: flex;
-}
-.fifthPara{
-  margin-top: 200px;
-  margin-left: 22%;
-  width: 47%;
-  align-items: center;
-}
-.fifPic{
-  margin-top: 150px;
-  width: 53%;
-}
-.sixth{
-  display: flex;
-}
-.sixthPic{
-  margin-top: 150px;
-  margin-left: 30%;
-  width: 40%;
-  align-items: center;
-}
-.sixthPara{
-  margin-top: 200px;
-  width: 60%;
-}
-.seventhTitle{
-  text-align: center;
-  margin-top: 200px;
-}
-.seventhCard{
-  margin-top: 100px;
-  margin-left: 23%;
-}
-.eighth{
-  margin-bottom: 50px;
-  margin-top: 200px;
-  margin-left: 30%;
-}
-.eighthGroup{
-  display: flex;
-}
+
+/*.backgroungPicture{*/
+/*  background: url("../assets/backPic.png");*/
+/*}*/
 /*::-webkit-scrollbar {*/
 /*  !*隐藏滚轮*!*/
 /*  display: none;*/
