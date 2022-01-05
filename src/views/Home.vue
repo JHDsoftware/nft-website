@@ -49,9 +49,8 @@
                   <h1 style="color: white">The <span style="color: purple">Project</span> You Have <br>Been Waiting
                     For...
                   </h1>
-                  <p style="color: white">Lorem Ipsum is simply dummy text of the printing and
-                    <br>typesetting industry Lorem Ipsum has been the industry's
-                    <br>standard dummy text ever since the 1500s.</p>
+                  <p style="color: white">6888 of CryptoNaughtyMammals are coming to the town of NFT and we are here to stay!</p>
+
                   <v-btn color="#FF00FF" style="margin-top: 30px"><span style="color: white">Connect Wallet</span>
                   </v-btn>
                 </div>
@@ -73,14 +72,7 @@
               <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
                 <div>
                   <h1 style="color: white">Story</h1>
-                  <p style="color: white">Proin gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
-                    mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                    auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu
-                    in elit. Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. Mauris in eratjusto. Nullam ac urna
-                    eu felis dapibus condimentum sit amet a augue.
+                  <p style="color: white">We don't want to take it over or fly to the moon (We don't have wings or rockets). It feels good just to be a neighborhood-friendly CrptoNaughtyMammal.
                   </p>
                 </div>
               </div>
@@ -170,16 +162,14 @@
             </v-col>
             <v-col class="pa-4" cols="6" offset="1">
               <div class="d-flex align-center justify-center flex-wrap" style="height: 100%">
-                <div>
+                <div >
                   <v-card color="#100428"
-                          style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;">
-                    <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
+                          style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;  ">
+                    <h3 style="color: white;text-align: center">Round1</h3>
                     <ul>
                       <li style="color: #a74ae1;padding-left: 10px">
-                        <div style="color: white">
-                          Proin gravida nibh vel velit auctor aliquet. Aenean
-                          sollicitudin, lorem quis bibendum auctor, nisi elit
-                          consequat ipsum, nec sagittis sem nibh id elit.
+                        <div style="color: white;">
+                          early-bird sale [2021/12/25 - 2021/12/31]
                         </div>
                       </li>
                     </ul>
@@ -206,13 +196,11 @@
                 <div>
                   <v-card color="#100428"
                           style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;">
-                    <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
+                    <h3 style="color: white;text-align: center">Round2</h3>
                     <ul>
                       <li style="color: #a74ae1;padding-left: 10px">
                         <div style="color: white">
-                          Proin gravida nibh vel velit auctor aliquet. Aenean
-                          sollicitudin, lorem quis bibendum auctor, nisi elit
-                          consequat ipsum, nec sagittis sem nibh id elit.
+                          community sale [2022/01/01 - 2022/01/15]
                         </div>
                       </li>
                     </ul>
@@ -249,13 +237,12 @@
                 <div>
                   <v-card color="#100428"
                           style="padding-top: 15px;padding-bottom: 15px;border-radius: 20px;width: 50%;height: 100%;border-style:solid;border-color:purple;">
-                    <h3 style="color: white;text-align: center">Will Come a Next Season</h3>
+                    <h3 style="color: white;text-align: center">Open sale</h3>
                     <ul>
                       <li style="color: #a74ae1;padding-left: 10px">
                         <div style="color: white">
-                          Proin gravida nibh vel velit auctor aliquet. Aenean
-                          sollicitudin, lorem quis bibendum auctor, nisi elit
-                          consequat ipsum, nec sagittis sem nibh id elit.
+                          Open sale
+                          [2022/01/16 to 2077/12/30]
                         </div>
                       </li>
                     </ul>
@@ -315,12 +302,13 @@
               <v-card color="#100428" style="border-radius: 20px">
                 <div style="border-style:solid;border-color:purple;">
                   <br>
-                  <h2 style="text-align: center;color: white">Are You A Crpto Naughty Mammal. Collector?</h2>
+                  <h2 style="text-align: center;color: white">Community giveaway</h2>
                   <br>
-                  <p style="text-align: center;color: white">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                    consequatipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus asit
-                    amet
-                    mauris</p>
+                  <p style="text-align: center;color: white" >
+                    A sign of appreciations to the creator and publisher:
+                    150pcs reserved for CNM`s mom, the creator of the graphics: Giopine
+                    150pcs reserved for CNM's dad, the mysterious coder: is4yNo-
+                    688 whitelist spots for our lovely CNM community! Stay tuned to our discord, Twitter, Facebook, and website for more details</p>
                   <div class="d-flex  justify-center mt-12" style="width: 100%">
                     <div>
                       <v-text-field dark label="Enter Your Email Address" outlined
