@@ -51,7 +51,7 @@
                   </h1>
                   <p style="color: white">6888 of CryptoNaughtyMammals are coming to the town of NFT and we are here to stay!</p>
 
-                  <v-btn color="#FF00FF" style="margin-top: 30px"><span style="color: white">Connect Wallet</span>
+                  <v-btn href="https://mint.cryptonaughtymammals.io"  color="#FF00FF" style="margin-top: 30px"><span style="color: white">Go Mint</span>
                   </v-btn>
                 </div>
               </div>

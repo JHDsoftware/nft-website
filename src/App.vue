@@ -44,14 +44,16 @@
 <!--    </v-app-bar>-->
 
     <v-app>
-      <router-view/>
+      <home></home>
     </v-app>
 <!--  </v-app>-->
 </template>
 
 <script>
+import Home from './views/Home.vue';
 
 export default {
+  components: { Home },
   name: 'App',
 
   data: () => ({
